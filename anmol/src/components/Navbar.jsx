@@ -3,6 +3,8 @@ import a1 from '../image/image1.jpg'
 import a2 from '../image/image2.jpg'
 import a3 from '../image/image3.jpg'
 import a4 from '../image/image4.jpg'
+
+
 export default function Navbar() {
   return (
    <>
@@ -30,8 +32,8 @@ export default function Navbar() {
       </div>
     </div>
   </nav>
-    <section>
-        <div className="bg-white p-6 rounded-lg shadow-md">
+    <section className=" flex justify-center  h-150 bg-gray-100 items-center  " >
+        <div className="bg-white p-6 rounded-lg shadow-md w-fit  h-fit border-b-gray-500">
       <h2 className="text-xl font-bold mb-4">
         Appliances for your home | Up to 55% off
       </h2>
@@ -67,6 +69,64 @@ export default function Navbar() {
 
 
      
+<footer className="bg-black text-gray-300 mt-10">
+  <div className="max-w-7xl mx-auto px-6 py-10">
+    
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+    
+      <div>
+        <h2 className="text-white text-xl font-bold mb-3">MyLogo</h2>
+        <p className="text-sm">
+          Quality products for your home at the best prices.
+        </p>
+      </div>
+
+    
+      <div>
+        <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+        <ul className="space-y-2 text-sm">
+          <li className="hover:text-white cursor-pointer">Home</li>
+          <li className="hover:text-white cursor-pointer">About</li>
+          <li className="hover:text-white cursor-pointer">Services</li>
+          <li className="hover:text-white cursor-pointer">Contact</li>
+        </ul>
+      </div>
+
+    
+      <div>
+        <h3 className="text-white font-semibold mb-3">Support</h3>
+        <ul className="space-y-2 text-sm">
+          <li className="hover:text-white cursor-pointer">Help Center</li>
+          <li className="hover:text-white cursor-pointer">Privacy Policy</li>
+          <li className="hover:text-white cursor-pointer">Terms & Conditions</li>
+        </ul>
+      </div>
+
+    
+      <div>
+        <h3 className="text-white font-semibold mb-3">Subscribe</h3>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          className="w-full p-2 rounded bg-gray-800 text-sm outline-none mb-3"
+        />
+        <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+          Subscribe
+        </button>
+      </div>
+
+    </div>
+
+    
+    <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+      © 2026     MyLogo. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+
 
    </>
   )
