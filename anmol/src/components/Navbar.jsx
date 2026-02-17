@@ -26,7 +26,7 @@ export default function Navbar() {
 
         </div>
         <div className=" ">
-            <button className="bg-blue-500/25 border-2 p-2 rounded-2xl " >LOG IN</button>
+            <button className="bg-blue-500/25 border-2 p-2 rounded-2xl hover:bg-amber-100 hover:text-black " >LOG IN</button>
         </div>
 
       </div>
