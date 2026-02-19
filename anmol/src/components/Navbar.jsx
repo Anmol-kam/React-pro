@@ -3,6 +3,7 @@ import a1 from '../image/image1.jpg'
 import a2 from '../image/image2.jpg'
 import a3 from '../image/image3.jpg'
 import a4 from '../image/image4.jpg'
+import { FaBars } from "react-icons/fa6";
 
 
 export default function Navbar() {
@@ -28,6 +29,7 @@ export default function Navbar() {
         <div className=" ">
             <button className="bg-blue-500/25 border-2 p-2 rounded-2xl hover:bg-amber-100 hover:text-black " >LOG IN</button>
         </div>
+          <button className=''><FaBars /></button>
 
       </div>
     </div>
