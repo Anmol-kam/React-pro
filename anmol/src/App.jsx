@@ -1,15 +1,11 @@
 import React from 'react'
-import Nav2 from './components/Nav2'
+import Home from './components/Home'
 
-
-
-
-export default function App() {
+export default function () {
   return (
     <div>
-
-    <Nav2/>
-      
+      <Home/>
     </div>
   )
 }
+
