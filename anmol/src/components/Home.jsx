@@ -13,7 +13,10 @@ export default function Home() {
 
     return (
         <>
-            <nav className=' bg-black/95 backdrop-blur-md text-white flex justify-between h-15 pl-10 pr-10 '>
+            <nav className="bg-linear-to-r from-black via-gray-900 to-black/80 backdrop-blur-md text-white  flex items-center justify-between 
+                h-16 px-6 md:px-10 
+                shadow-lg border-b border-white/10">
+
                 <ul className='flex items-center gap-10 '>
                     {
                         menu.map((v, i) => (
