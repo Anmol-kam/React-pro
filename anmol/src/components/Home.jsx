@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaMobileAlt } from "react-icons/fa";
-import a1 from "../image/bg3.jpg"
+import a1 from "../image/bg12.png"
 
 
 export default function Home() {

@@ -2,9 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-   <section className="min-h-screen bg-black text-white px-10 flex items-center">
-      
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+<section className="min-h-screen bg-linear-to-b from-black via-gray-900 to-black text-white px-10 flex items-center">  
+   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         {/* LEFT SIDE - TEXT */}
         <div>
@@ -22,7 +21,7 @@ export default function About() {
           </p>
 
           <p className="mt-6 text-md text-gray-500">
-            Indri (karnal) <br />
+            Indri (karnal) <br /> 
            132041 
           </p>
         </div>
